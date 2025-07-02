@@ -11,3 +11,5 @@ resource "aws_instance" "my_first_ec2_instance_2" {
     Description = "my_first_ec2_instance_2"
   }
 }
+
+#test
