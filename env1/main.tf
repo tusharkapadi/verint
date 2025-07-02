@@ -8,5 +8,6 @@ resource "aws_instance" "my_first_ec2_instance_1" {
   
   tags = {
     Name = "my_first_ec2_instance_1"
+    Description = "my_first_ec2_instance_1"
   }
 }
