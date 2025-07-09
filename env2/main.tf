@@ -1,3 +1,11 @@
+terraform {
+    backend "s3" {
+        bucket = "tk-tf-migration-bucket"
+        key = "terraform.tfstate"
+        region = var.aws_region
+    }
+}
+
 provider "aws" {
   region = var.aws_region
 }
