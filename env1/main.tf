@@ -1,7 +1,7 @@
 terraform {
     backend "s3" {
         bucket = "tk-tf-migration-bucket"
-        key = "terraform.tfstate"
+        key = "env1/terraform.tfstate"
         region = var.aws_region
     }
 }
